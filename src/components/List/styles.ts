@@ -6,8 +6,6 @@ export const styles = StyleSheet.create({
         flex: 1
     },
     listContent: {
-        gap: 16,
-        paddingTop: 16,
         paddingBottom: 72
     },
     title: {
@@ -15,7 +13,7 @@ export const styles = StyleSheet.create({
         paddingBottom: 16,
         borderBottomWidth: 1,
         borderBottomColor: colors.gray[200],
-        fontSize: 18,
+        fontSize: 16,
         fontFamily: fontFamily.medium,
         color: colors.black
 
@@ -23,6 +21,7 @@ export const styles = StyleSheet.create({
     empty: {
         fontSize: 14,
         color: colors.gray[600],
-        fontFamily: fontFamily.regular
+        fontFamily: fontFamily.regular,
+        marginTop: 24
     }
 })

@@ -4,6 +4,7 @@ import { styles } from "./styles";
 import { colors } from "@/theme";
 import { Separator } from "../Separator";
 
+
 type Props<T> = FlatListProps<T> & {
     title: string,
     emptyMessage?: string,

@@ -4,7 +4,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { styles } from "./styles";
 
 export type TargetProps = {
-    id?: string,
+    id: string,
     name: string,
     percentage: string,
     current: string,
